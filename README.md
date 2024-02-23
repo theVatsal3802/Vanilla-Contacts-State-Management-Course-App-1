@@ -1,16 +1,37 @@
-# vanilla_contacts
+# Vanilla Contacts
 
-A new Flutter project.
+In this project, I have used the inbuilt state management of Flutter to build the app.<br> The app is a simple contact book to store contacts. It is non-persistent.
 
-## Getting Started
+## Tech Stack Used
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
 
-This project is a starting point for a Flutter application.
+## Installation Guide to run the app on localhost
 
-A few resources to get you started if this is your first Flutter project:
+### Requirements 
+- Flutter should be installed
+- Android Emulator or a real android device with USB Debugging on, should be connected
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Steps
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the repository
+
+```bash
+  https://github.com/theVatsal3802/Vanilla-Contacts-State-Management-Course-App-1.git
+```
+
+Enter in cloned the directory
+
+```bash
+  cd Vanilla-Contacts-State-Management-Course-App-1
+```
+
+Fetch all the dependencies
+```bash
+  flutter pub get
+```
+
+To launch the app in the connected device
+```bash
+  flutter run
+```
